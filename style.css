@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*before,
+*after {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 400px;
+}
+
+.forms {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 380px;
+	padding: 10px 0;
+}
+
+.form {
+	margin: 20px 0;
+}
+
+.from_heading {
+	font-size: 1.2rem;
+	padding: 10px 0;
+}
+
+.choosing-a-method {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 115px;
+}
+
+.choice-option {
+	display: none;
+}
+
+.option {
+	display: flex;
+	padding: 5px;
+	background: #fff;
+	cursor: pointer;
+	border: 3px solid #0000001a;
+	border-radius: 10px;
+}
+
+.option label {
+	cursor: pointer;
+}
+
+.radio_focus {
+	border: 3px solid #5282FF;
+}
+
+.submit_btn {
+	background: #5282FF;
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.btn_text {
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
