@@ -31,3 +31,4 @@ submit_btn.onclick = () => {
 
 let div = document.createElement('div');
 div.innerHTML = tg.initDataUnsafe.user.username;
+document.body.append(div);
