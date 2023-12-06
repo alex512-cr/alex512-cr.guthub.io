@@ -29,4 +29,4 @@ submit_btn.onclick = () => {
 	console.log("yes");
 }*/
 
-WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
+tg.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
