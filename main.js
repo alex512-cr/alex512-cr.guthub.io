@@ -28,3 +28,6 @@ radio3_btn.onclick = () => {
 submit_btn.onclick = () => {
 	console.log("yes");
 } 
+
+let div = document.createElement('div');
+div.innerHTML = tg.initDataUnsafe.user.username;
