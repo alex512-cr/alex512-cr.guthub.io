@@ -5,7 +5,7 @@ const radio3_btn = document.getElementById("id3");
 const submit_btn = document.getElementById("submit");
 
 let tg = window.Telegram.WebApp;
-console.log(tg.initDataUnsafe);
+console.log(tg);
 //console.log(tg);
 radio1_btn.onclick = () => {
 	radio1_btn.classList.add("radio_focus");
