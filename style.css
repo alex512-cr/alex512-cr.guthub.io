@@ -16,6 +16,12 @@ body {
 	max-width: 400px;
 }
 
+.heading {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
 .forms {
 	margin: 0 auto;
 	width: 100%;
@@ -67,6 +73,7 @@ body {
 	border-radius: 10px;
 	text-align: center;
 	padding: 5px 0;
+	cursor: pointer;
 }
 
 .btn_text {

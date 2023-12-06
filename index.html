@@ -11,11 +11,12 @@
 </head>
 <body>
 	<div class="container">
+		<div class="heading">Заказ календаря</div>
 		<form class='forms'>
 			<div class="form">
 				<div class='form_heading'>Способ доставки</div>
 				<div class="choosing-a-method">
-					<div class="option" id='id1' for='radio1'>
+					<div class="option radio_focus" id='id1' for='radio1'>
 							<input id="radio1" type=radio name="shipping-method" value="pickup" class="choice-option">
 							<div>Самовывоз</div>
 					</div>
@@ -36,7 +37,7 @@
 				<div class='form_heading'>Количество календарей</div>
 				<input type="number" class="number_of_calendars">
 			</div>
-			<div class='submit_btn'>
+			<div class='submit_btn' id="submit">
 				<div class='btn_text'>Отправить</div>
 			</div>
 		</form>
