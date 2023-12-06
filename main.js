@@ -29,7 +29,4 @@ submit_btn.onclick = () => {
 	console.log("yes");
 }
 
-let div = document.createElement('div');
-div.innerHTML = tg.initDataUnsafe.user.username;
-
-document.body.append(div);
+WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
