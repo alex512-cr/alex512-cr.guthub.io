@@ -7,7 +7,7 @@ const submit_btn = document.getElementById("submit");
 let tg = window.Telegram.WebApp;
 console.log(tg);
 //console.log(tg);
-radio1_btn.onclick = () => {
+/*radio1_btn.onclick = () => {
 	radio1_btn.classList.add("radio_focus");
 	radio2_btn.classList.remove("radio_focus");
 	radio3_btn.classList.remove("radio_focus");
@@ -27,6 +27,6 @@ radio3_btn.onclick = () => {
 
 submit_btn.onclick = () => {
 	console.log("yes");
-}
+}*/
 
 WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
