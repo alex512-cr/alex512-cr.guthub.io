@@ -34,4 +34,4 @@ submit_btn.onclick = () => {
 	console.log("yes");
 }
 
-console.log(WebApp.WebAppUser.username);
+console.log(tg.WebAppUser.username);
