@@ -46,7 +46,6 @@ submit_btn.onclick = () => {
 	number_of_calendars = number_input.value;
 	console.log(delivery_address, number_of_calendars)
 	let data = {
-		username: tg.initDataUnsafe.user.username,
 		method_of_obtaining: radio,
 		delivery_address: delivery_address,
 		number_of_calendars: number_of_calendars
