@@ -7,7 +7,7 @@ const address_input = document.getElementById("address_input");
 const submit_btn = document.getElementById("submit");
 
 let tg = window.Telegram.WebApp;
-//console.log(tg);
+tg.ready();
 radio1_btn.onclick = () => {
 	radio1_btn.classList.add("radio_focus");
 	radio2_btn.classList.remove("radio_focus");
@@ -33,4 +33,4 @@ submit_btn.onclick = () => {
 	console.log("yes");
 }
 
-console.log(tg.WebAppInitData);
+console.log(tg.initDataUnsafe.user);
