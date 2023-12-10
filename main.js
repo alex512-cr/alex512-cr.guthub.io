@@ -33,4 +33,4 @@ submit_btn.onclick = () => {
 	console.log("yes");
 }
 
-console.log(tg.initData);
+console.log(tg.WebAppInitData);
