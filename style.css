@@ -84,6 +84,25 @@ body {
 
 .number_of_calendars {
 	border-radius: 10px;
-	height: 20px;
+	height: 30px;
 	width: 60px;
+	font-size: 1.2rem;
+	border: 3px solid #0000001a;
+}
+
+.input_address {
+	border-radius: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1.2rem;
+	border: 3px solid #0000001a;
+}
+
+.address_form_disabled {
+	display: none;
+}
+
+input:focus {
+	outline: none;
+	border-color: #5282FF;
 }
