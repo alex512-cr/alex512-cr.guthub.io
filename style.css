@@ -14,9 +14,11 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 400px;
+	height: 814px;
+	background: url('fon1.jpg') center no-repeat;
 }
 
-.heading {
+.main_heading {
 	font-size: 30px;
 	font-weight: 700;
 	text-align: center;
@@ -29,6 +31,13 @@ body {
 	padding: 10px 0;
 }
 
+.fon {
+	width: 400px;
+	height: auto;
+	position: absolute;
+	z-index: -1;
+}
+
 .form {
 	margin: 20px 0;
 }
@@ -36,6 +45,13 @@ body {
 .form_heading {
 	font-size: 1.2rem;
 	padding: 10px 0;
+}
+
+.heading_text {
+	background-color: rgba(255, 255, 255, .7);
+	padding: 3px 3px;
+	display: inline-block;
+	border-radius: 10px;
 }
 
 .choosing-a-method {
